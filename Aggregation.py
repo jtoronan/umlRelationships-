@@ -8,3 +8,7 @@ class Car:
 
     def check_wheels(self):
         print(f"Car is using {self.wheel.size}-inch wheels.")
+
+my_wheel = Wheel(15)
+my_car = Car(my_wheel)
+my_car.check_wheels() 
