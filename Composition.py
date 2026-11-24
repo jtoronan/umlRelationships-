@@ -9,3 +9,6 @@ class Car:
     def drive(self):
         self.engine.start()     
         print("Car is moving.")
+
+car = Car()
+car.drive() 

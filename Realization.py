@@ -8,3 +8,6 @@ class Vehicle(ABC):
 class Motorcycle(Vehicle):
     def start_engine(self):
         print("Motorcycle engine roaring!")
+
+bike = Motorcycle()
+bike.start_engine()
