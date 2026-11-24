@@ -13,9 +13,9 @@ class Person(ABC):
         pass
 
 
-Person1 = Person("Milo", 19)
-print(Person1.name)
-print(Person1.get_age())
+#Person1 = Person("Milo", 19)
+#print(Person1.name)
+#print(Person1.get_age())
 # using get_age() is better because it avoids accidental modification 
 
 class student(Person):
