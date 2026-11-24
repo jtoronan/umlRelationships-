@@ -1,10 +1,16 @@
-class Person:
+from abc import ABC, abstractmethod
+
+class Person(ABC):
     def __init__(self, name, age):
         self.name = name
         self.__age = age 
 
     def get_age(self):
         return self.__age 
+
+    @abstractmethod
+    def role(self):
+        pass
 
 
 Person1 = Person("Milo", 19)
